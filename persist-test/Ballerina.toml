@@ -1,0 +1,18 @@
+[package]
+org = "maryam"
+name = "persist_test"
+version = "0.1.0"
+distribution = "2201.8.5"
+
+[build-options]
+observabilityIncluded = true
+
+[persist]
+datastore = "mssql"
+module = "persist_test.db"
+
+[[platform.java17.dependency]]
+groupId = "io.ballerina.stdlib"
+artifactId = "persist.sql-native"
+version = "1.2.1"
+
