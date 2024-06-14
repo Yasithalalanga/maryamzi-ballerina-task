@@ -19,5 +19,5 @@ configurable string l = "People";
 
 
 public function main() {
-    io:println([a, b, c, d, e, f, g, h, i, j, k, l]);
+    io:println("Configs: ", [a, b, c, d, e, f, g, h, i, j, k, l]);
 }
