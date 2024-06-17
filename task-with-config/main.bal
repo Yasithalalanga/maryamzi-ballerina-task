@@ -19,5 +19,6 @@ public function main() {
     io:println("String Req Config: " + stringReqConfig);
     io:println("String Def Secret: " + stringDefSecret);
     io:println("String Def Config: " + stringDefConfig);
+    io:println("Sample Print Line 01");
 }
 
