@@ -4,7 +4,7 @@ configurable int v1 = ?;
 configurable int v2 = 2;
 
 public function main() {
-    io:println("Configs V4");
+    io:println("Configs V4 Updated");
     io:println(v1);
     io:println(v2);
 }
